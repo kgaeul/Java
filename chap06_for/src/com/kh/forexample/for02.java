@@ -30,10 +30,14 @@ public class for02 {
 		
 		
 		
-		for (int i2=1 ; i2<10 ; i2++) {
-			for (int i=1 ; i<=9 ; i++) {		
-				int result =i*i2;				
-				System.out.println(i2+"x"+ i +"="+result);
+		for (int i2=1 ; i2<10 ; i2++) { //i2값 증가
+			for (int i=1 ; i<=9 ; i++) { //i값 증가
+				int result =i*i2;			//	i*i2
+				System.out.println(i2+"x"+ i +"="+result); //i*i2값 출력
+				
+				
+				
+				
 			}
 		}
 		
