@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SwitchcScanner {
 
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("주문하실 번호를 선택해주세요. ");
@@ -15,6 +16,7 @@ public class SwitchcScanner {
 		System.out.println("4. 카푸치노");
 		
 		boolean isChoice =false;
+		
 		int choice = sc.nextInt();
 		while(isChoice) {
 		

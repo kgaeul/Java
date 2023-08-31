@@ -10,7 +10,7 @@ public class practice4 {
 		Scanner sc = new Scanner(System.in);
 
 		
-		System.out.println("월을 입력해주세요. : ");
+		System.out.print("월을 입력해주세요. : ");
 		
 		int season = sc.nextInt();
 		

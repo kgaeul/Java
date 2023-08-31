@@ -15,9 +15,9 @@ public class practice1 {
 		System.out.println("4. 삭제");
 		System.out.println("7. 종료");
 		
-		int menu = 7;
+		
 		int choice = sc.nextInt();
-		switch(menu) {
+		switch(choice) {
 		case 1 :
 		System.out.println("입력");
 		break;
