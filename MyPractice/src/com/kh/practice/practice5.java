@@ -11,7 +11,7 @@ public class practice5 {
 		int sum1=0;
 		int num1 =sc.nextInt();	
 		for (int i=1 ; i<num1 ; i++) {	
-		
+			sum1+=num1;
 		System.out.println(num1);
 	}
 	}
