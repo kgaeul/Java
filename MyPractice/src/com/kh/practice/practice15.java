@@ -10,22 +10,24 @@ public class practice15 {
 	
 	System.out.print("숫자를 입력해주세요 : ");	
 	int num = sc.nextInt();		
-	if(num%2==0&&num>0){
-		System.out.print("소수가 아닙니다.");
+	
+	int count=0;
+	for(int i=1; i<=num ; i++) {
+		if(num%i==0) {
+			count++;
+			System.out.println("약수 : "+i);
+		}else if(num<2){
+			System.out.println("다시 입력해주세요");
 			
-	}else if(num%3==0&&num>3) {
-			System.out.print("소수가 아닙니다.");
-			
-	}else if (num%5==0&&num>5) {                         
-			System.out.print("소수가 아닙니다.");
-			
-	}else if (num<2){
-			System.out.println("잘못입력하셨습니다. ");
-			
-		}else{
-			System.out.print("소수입니다. ");
-		
-			}
-		}    
+		}
 	}
+		if(count>2) {
+			System.out.println(num+"은 소수가 아닙니다.");
+			System.out.println(num+"의 약수의 개수는 "+count+" 입니다.");
+			}else if(count<3){
+				System.out.println("소수입니다.");
+				}else{
+		}
+	}    
+}
 

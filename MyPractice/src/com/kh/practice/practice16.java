@@ -12,7 +12,7 @@ public class practice16 {
 		while(isTrue) {
 		System.out.print("숫자를 입력해주세요 : ");	
 		int num = sc.nextInt();		
-		if(num%2==0&&num>0){
+		if(num%2==0&&num>2){
 			System.out.print("소수가 아닙니다.");
 				isTrue = false;
 		}else if(num%3==0&&num>3) {
