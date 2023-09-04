@@ -5,7 +5,7 @@ public class circlern {
 
 	public static void main(String[] args) {
 
-		Circle circle=new Circle(3.14,1);
+		Circle circle=new Circle();
 		
 		
 		//원의 크기 출력
