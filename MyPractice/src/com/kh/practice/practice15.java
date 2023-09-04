@@ -23,7 +23,7 @@ public class practice15 {
 	}
 		if(count>2) {
 			System.out.println(num+"은 소수가 아닙니다.");
-			System.out.println(num+"의 약수의 개수는 "+count+" 입니다.");
+			System.out.println(num+"의 약수의 개수는 "+count+"개 입니다.");
 			}else if(count<3){
 				System.out.println("소수입니다.");
 				}else{

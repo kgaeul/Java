@@ -10,9 +10,22 @@ public class practice18 {
 		System.out.print("숫자를 입력해주세요 : ");	
 		int num = sc.nextInt();		
 		
-		for(int i=1;num%2==0&&num%3==0; i++) {
-			System.out.print(i);	
-		}
-	}
-
+		int count=0;
+				int sum=0;
+				int sum2=0;
+				for(int i=1;i<=num/2;i++) {
+					sum+=i*2;
+					
+					System.out.print(i*2);	
+					}
+				for(int i=1;i<=num/3;i++) {
+					sum2+=i*3;
+					
+					System.out.print(i*3);
+				}
+	
+	}	
 }
+	
+
+
