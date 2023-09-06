@@ -4,6 +4,7 @@ public class Gamerun {
 
 	public static void main(String[] args) {
 
+		
 		//플레이 생성자 만들기
 		
 		PlayerCharacter Player = new PlayerCharacter();

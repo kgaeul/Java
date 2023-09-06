@@ -13,7 +13,7 @@ public class Circle {
 	}
 	
 	public void setPI(double pI) {
-		PI = pI;
+		this.PI = pI;
 	}
 	public void setRadius(int radius) {
 		this.radius = radius;
