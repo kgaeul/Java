@@ -17,7 +17,7 @@ public class ToArray {
 				System.out.println();
 				for(int a=0; a<fruits[i].length;a++) {
 					System.out.print(a +":"+fruits.length);
-					System.out.print(fruits[a].length);
+					
 					System.out.print(fruits[i][a]+" ");
 			}
 			System.out.println(); //다음 행으로 이동할 수 있게 enter용 출력 메소드 입력

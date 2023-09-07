@@ -2,6 +2,10 @@ package com.kh.practice;
 
 import java.util.Scanner;
 
+
+//todosample
+//할일 만들고 수정하고 지우고 전부 삭제
+
 public class practice16 {
 
 	public static void main(String[] args) {

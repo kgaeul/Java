@@ -6,7 +6,7 @@ public class CalculatorRun extends Calculator{
 
 	public static void main(String[] args) {
 		
-		Calculator cal = new Calculator();	
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("숫자 1 : ");
@@ -14,11 +14,12 @@ public class CalculatorRun extends Calculator{
 		
 		System.out.print("숫자 2 : ");
 		int num2 = sc.nextInt();
-		
-		int results1 = cal.add(num1,num2);
-		int results2 = cal.substruct(num1,num2);
-		int results3 = cal.multifly(num1,num2);
-		int results4 = cal.divide(num1,num2);
+		//내가 쓴 코드를 문장으로 말하는거!
+		Calculator cal = new Calculator();	
+		int results1 = cal.add();
+		int results2 = cal.substruct();
+		int results3 = cal.multifly();
+		int results4 = cal.divide();
 		int results5 = cal.mod(num1,num2);
 		
 		System.out.println("합 : "+results1);
