@@ -13,7 +13,7 @@ public class PersonController {
 		this.view=view;
 	}
 	public void character() {
-		String username1 = view.gtUser1();
+		String username1 = view.getUser1();
 		String username2= view.getUser2();
 		model.setName(username1);
 		model.setName2(username2);
