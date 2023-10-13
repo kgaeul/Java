@@ -3,12 +3,9 @@ package com.kh.pattern.single;
 public class SingleStudent {
 	
 	private String name;
-	private SingleStudent() {
-		
-	}
-		
+	
 	public void display() {
-		System.out.println("�̱��� �л��Դϴ�.");
+		System.out.println("½Ì±ÛÅæ ÇÐ»ýÀÔ´Ï´Ù.");
 	}
 		
 	public static void main(String[] args) {
